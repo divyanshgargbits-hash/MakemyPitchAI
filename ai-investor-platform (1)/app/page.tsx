@@ -57,42 +57,24 @@ export default function LandingPage() {
             Choose your role and let AI bridge the gap between founders and investors.
           </p>
 
-          {/* Role Selection Cards */}
-          <div className="flex w-full max-w-2xl flex-col items-stretch gap-5 animate-fade-in-up sm:flex-row" style={{ animationDelay: "0.3s" }}>
-            {/* Startup Founder Card */}
+          {/* Role Selection Buttons */}
+          <div className="flex flex-col items-center gap-4 animate-fade-in-up sm:flex-row" style={{ animationDelay: "0.3s" }}>
             <Link
               href="/dashboard"
-              className="group relative flex flex-1 flex-col items-center gap-4 rounded-2xl border border-violet-500/20 bg-violet-500/10 px-6 py-8 backdrop-blur-md transition-all duration-300 hover:border-violet-500/40 hover:bg-violet-500/15 hover:scale-[1.02]"
+              className="group inline-flex items-center gap-2.5 rounded-full bg-foreground px-8 py-3.5 text-base font-semibold text-background transition-all duration-200 hover:opacity-90 hover:scale-[1.03]"
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-violet-500/20 transition-colors group-hover:bg-violet-500/30">
-                <Rocket className="h-7 w-7 text-violet-400" />
-              </div>
-              <div className="text-center">
-                <h3 className="mb-1.5 text-lg font-semibold text-foreground">I am a Startup Founder</h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">Submit your pitch and let AI investors evaluate your startup.</p>
-              </div>
-              <div className="mt-auto inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 transition-all group-hover:gap-2.5">
-                Start Pitching
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
+              <Rocket className="h-4.5 w-4.5" />
+              I am a Startup Founder
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
 
-            {/* Investor Card */}
             <Link
               href="/investor"
-              className="group relative flex flex-1 flex-col items-center gap-4 rounded-2xl border border-fuchsia-500/20 bg-fuchsia-500/10 px-6 py-8 backdrop-blur-md transition-all duration-300 hover:border-fuchsia-500/40 hover:bg-fuchsia-500/15 hover:scale-[1.02]"
+              className="group inline-flex items-center gap-2.5 rounded-full border border-muted-foreground/30 bg-muted-foreground/10 px-8 py-3.5 text-base font-medium text-muted-foreground backdrop-blur-sm transition-all duration-200 hover:border-muted-foreground/50 hover:text-foreground hover:scale-[1.03]"
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-fuchsia-500/20 transition-colors group-hover:bg-fuchsia-500/30">
-                <Briefcase className="h-7 w-7 text-fuchsia-400" />
-              </div>
-              <div className="text-center">
-                <h3 className="mb-1.5 text-lg font-semibold text-foreground">I am an Investor</h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">Explore startups, filter by your preferences, and interact with founders.</p>
-              </div>
-              <div className="mt-auto inline-flex items-center gap-1.5 text-sm font-medium text-fuchsia-400 transition-all group-hover:gap-2.5">
-                Explore Startups
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </div>
+              <Briefcase className="h-4.5 w-4.5" />
+              I am an Investor
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
           </div>
         </div>
