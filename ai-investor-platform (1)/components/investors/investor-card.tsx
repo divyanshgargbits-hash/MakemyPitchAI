@@ -77,15 +77,15 @@ export function InvestorCard({ investor, isSelected, onSelect, delay }: Investor
 
           {/* Action Buttons */}
           <div className="flex gap-2">
-            <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg gradient-primary-subtle px-3 py-2 text-[11px] font-medium text-violet-300 transition-all hover:brightness-125">
+            <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-violet-500/20 bg-transparent px-3 py-2 text-[11px] font-medium text-violet-300 backdrop-blur-sm transition-all hover:bg-violet-500/10 hover:border-violet-500/40">
               <MessageCircle className="h-3 w-3" />
               Ask
             </button>
-            <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg gradient-accent-subtle px-3 py-2 text-[11px] font-medium text-fuchsia-300 transition-all hover:brightness-125">
+            <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-fuchsia-500/20 bg-transparent px-3 py-2 text-[11px] font-medium text-fuchsia-300 backdrop-blur-sm transition-all hover:bg-fuchsia-500/10 hover:border-fuchsia-500/40">
               <Handshake className="h-3 w-3" />
               Deal
             </button>
-            <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-red-500/8 px-3 py-2 text-[11px] font-medium text-red-400 transition-colors hover:bg-red-500/15">
+            <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-red-500/20 bg-transparent px-3 py-2 text-[11px] font-medium text-red-400 backdrop-blur-sm transition-all hover:bg-red-500/10 hover:border-red-500/40">
               <X className="h-3 w-3" />
               Reject
             </button>

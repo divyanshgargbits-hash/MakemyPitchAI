@@ -53,7 +53,7 @@ export function TermSheet({ investment, equity }: TermSheetProps) {
             <p className="text-xs text-muted-foreground">Auto-generated from deal parameters</p>
           </div>
         </div>
-        <button className="flex items-center gap-2 rounded-lg bg-secondary px-3 py-2 text-xs font-medium text-foreground transition-colors hover:bg-secondary/80">
+        <button className="flex items-center gap-2 rounded-lg border border-border/40 bg-transparent px-3 py-2 text-xs font-medium text-foreground backdrop-blur-sm transition-all hover:bg-secondary/20 hover:border-border/60">
           <Download className="h-3.5 w-3.5" />
           Export
         </button>

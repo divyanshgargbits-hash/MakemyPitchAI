@@ -7,7 +7,7 @@ import { QaTimeline } from "@/components/pitch/qa-timeline"
 
 export default function PitchPage() {
   return (
-    <div className="min-h-screen bg-background grid-bg">
+    <div className="min-h-screen grid-bg">
       <Navigation />
 
       <main className="mx-auto max-w-7xl px-6 pt-28 pb-16">

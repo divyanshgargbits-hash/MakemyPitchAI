@@ -24,10 +24,10 @@ export function VoiceInput() {
       <div className="flex flex-col items-center gap-6">
         <button
           onClick={() => setIsRecording(!isRecording)}
-          className={`relative flex h-24 w-24 items-center justify-center rounded-full transition-all duration-300 ${
+          className={`relative flex h-24 w-24 items-center justify-center rounded-full border backdrop-blur-sm transition-all duration-300 ${
             isRecording
-              ? "bg-gradient-to-br from-red-600/20 to-rose-600/15 purple-glow-strong"
-              : "gradient-primary-subtle hover:bg-violet-500/15"
+              ? "border-red-500/30 bg-transparent purple-glow-strong"
+              : "border-violet-500/25 bg-transparent hover:bg-violet-500/10 hover:border-violet-500/40"
           }`}
           aria-label={isRecording ? "Stop recording" : "Start recording"}
         >

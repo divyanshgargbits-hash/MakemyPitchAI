@@ -147,7 +147,7 @@ export function QaTimeline() {
           placeholder="Type your response..."
           className="flex-1 rounded-xl border border-border bg-secondary/50 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/50 focus:border-violet-500/30 focus:outline-none focus:ring-1 focus:ring-violet-500/20"
         />
-        <button className="flex h-10 w-10 items-center justify-center rounded-xl gradient-primary text-white transition-all hover:brightness-110 purple-glow" aria-label="Send message">
+        <button className="flex h-10 w-10 items-center justify-center rounded-xl border border-violet-500/30 bg-transparent text-violet-400 backdrop-blur-sm transition-all hover:bg-violet-500/10 hover:border-violet-500/50" aria-label="Send message">
           <Send className="h-4 w-4" />
         </button>
       </div>

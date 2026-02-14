@@ -30,7 +30,7 @@ const features = [
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Navigation />
 
       {/* Hero Section */}
@@ -61,7 +61,7 @@ export default function LandingPage() {
           <div className="flex flex-col items-center gap-4 animate-fade-in-up sm:flex-row" style={{ animationDelay: "0.3s" }}>
             <Link
               href="/dashboard"
-              className="group inline-flex items-center gap-2.5 rounded-full bg-foreground px-8 py-3.5 text-base font-semibold text-background transition-all duration-200 hover:opacity-90 hover:scale-[1.03]"
+              className="group inline-flex items-center gap-2.5 rounded-full border border-violet-500/30 bg-transparent px-8 py-3.5 text-base font-semibold text-foreground backdrop-blur-sm transition-all duration-200 hover:bg-violet-500/10 hover:border-violet-500/50 hover:scale-[1.03]"
             >
               <Rocket className="h-4.5 w-4.5" />
               I am a Startup Founder
@@ -70,7 +70,7 @@ export default function LandingPage() {
 
             <Link
               href="/investor"
-              className="group inline-flex items-center gap-2.5 rounded-full border border-muted-foreground/30 bg-muted-foreground/10 px-8 py-3.5 text-base font-medium text-muted-foreground backdrop-blur-sm transition-all duration-200 hover:border-muted-foreground/50 hover:text-foreground hover:scale-[1.03]"
+              className="group inline-flex items-center gap-2.5 rounded-full border border-border/40 bg-transparent px-8 py-3.5 text-base font-medium text-muted-foreground backdrop-blur-sm transition-all duration-200 hover:border-border/60 hover:text-foreground hover:bg-secondary/10 hover:scale-[1.03]"
             >
               <Briefcase className="h-4.5 w-4.5" />
               I am an Investor

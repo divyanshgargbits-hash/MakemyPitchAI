@@ -73,7 +73,7 @@ export function PitchUploadPanel({ onSubmit, hasSubmitted }: PitchUploadProps) {
       <button
         onClick={handleSubmit}
         disabled={hasSubmitted}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-xl gradient-primary px-6 py-3 text-sm font-semibold text-white transition-all hover:brightness-110 purple-glow disabled:opacity-50 disabled:cursor-not-allowed"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-violet-500/30 bg-transparent px-6 py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-violet-500/10 hover:border-violet-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {hasSubmitted ? (
           "Pitch Submitted"

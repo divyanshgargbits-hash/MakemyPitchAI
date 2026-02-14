@@ -11,7 +11,7 @@ export default function DashboardPage() {
   const [hasSubmitted, setHasSubmitted] = useState(false)
 
   return (
-    <div className="min-h-screen bg-background grid-bg ambient-glow">
+    <div className="min-h-screen grid-bg ambient-glow">
       <Navigation />
 
       <main className="relative z-10 mx-auto max-w-7xl px-6 pt-28 pb-16">

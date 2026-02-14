@@ -296,7 +296,7 @@ export default function InvestorPage() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Navigation />
 
       <main className="mx-auto max-w-5xl px-4 pb-20 pt-28 sm:px-6">
@@ -416,7 +416,7 @@ export default function InvestorPage() {
 
             <button
               onClick={() => setStep(1)}
-              className="group mx-auto flex items-center gap-2 rounded-full bg-foreground px-8 py-3.5 text-sm font-semibold text-background transition-all hover:opacity-90"
+              className="group mx-auto flex items-center gap-2 rounded-full border border-violet-500/30 bg-transparent px-8 py-3.5 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-violet-500/10 hover:border-violet-500/50"
             >
               Find Matching Startups
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -572,7 +572,7 @@ export default function InvestorPage() {
 
               <button
                 onClick={startChat}
-                className="group inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-3.5 text-sm font-semibold text-background transition-all hover:opacity-90"
+                className="group inline-flex items-center gap-2 rounded-full border border-violet-500/30 bg-transparent px-8 py-3.5 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-violet-500/10 hover:border-violet-500/50"
               >
                 <MessageSquare className="h-4 w-4" />
                 Start Conversation
@@ -645,7 +645,7 @@ export default function InvestorPage() {
                   <button
                     type="submit"
                     disabled={!chatInput.trim()}
-                    className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-violet-500 text-white transition-opacity disabled:opacity-40"
+                    className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-violet-500/40 bg-transparent text-violet-400 backdrop-blur-sm transition-all hover:bg-violet-500/15 hover:border-violet-500/60 disabled:opacity-40"
                   >
                     <Send className="h-4 w-4" />
                   </button>
