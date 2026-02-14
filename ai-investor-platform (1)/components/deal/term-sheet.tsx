@@ -79,7 +79,7 @@ export function TermSheet({ investment, equity }: TermSheetProps) {
         <div className="mb-6 grid gap-4 sm:grid-cols-2">
           <div className="rounded-lg bg-gradient-to-br from-violet-950/20 to-purple-950/10 border border-violet-500/8 p-3">
             <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-1">Investor</p>
-            <p className="text-sm font-medium text-foreground">SharkPitch AI Syndicate</p>
+            <p className="text-sm font-medium text-foreground">MatchmyPitch AI Syndicate</p>
             <p className="text-xs text-muted-foreground">Multi-investor AI consortium</p>
           </div>
           <div className="rounded-lg bg-gradient-to-br from-violet-950/20 to-purple-950/10 border border-violet-500/8 p-3">

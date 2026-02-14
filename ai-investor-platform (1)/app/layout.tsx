@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata: Metadata = {
-  title: 'SharkPitch AI - Pitch Once. Get Funded by AI Investors.',
-  description: 'An AI-powered Shark Tank platform where startup founders pitch their ideas and AI investors evaluate in real-time.',
+  title: 'MatchmyPitch AI - Pitch Once. Get Funded by AI Investors.',
+  description: 'An AI-powered platform where startup founders pitch their ideas and AI investors evaluate in real-time.',
 }
 
 export const viewport: Viewport = {
