@@ -115,7 +115,7 @@ export default function LandingPage() {
             <Zap className="h-4 w-4 text-violet-400" />
             <span className="text-sm font-medium text-foreground">MatchmyPitch<span className="bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent"> AI</span></span>
           </div>
-          <p className="text-xs text-muted-foreground">Built for the hackathon. AI-powered startup evaluation platform.</p>
+
         </div>
       </footer>
     </div>
