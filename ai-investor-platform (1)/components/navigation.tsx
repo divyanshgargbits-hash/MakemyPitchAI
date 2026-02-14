@@ -10,8 +10,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/dashboard", label: "Dashboard" },
   { href: "/pitch", label: "Live Pitch" },
-  { href: "/investors", label: "Investor Room" },
-  { href: "/deal", label: "Deal Simulator" },
+  { href: "/investor", label: "Investor" },
 ]
 
 export function Navigation() {
